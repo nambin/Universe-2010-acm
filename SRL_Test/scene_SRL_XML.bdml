@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <!--<BackGroundColor>
+    <Spectrum R="1.0" G="1.0" B="1.0"/>
+  </BackGroundColor>--> 
+  
+  <ImageSampler type="StratifiedImageSampler">
+    <NumPixelSamples x="2" y="2"/>
+    <Jitter value="false"/>
+  </ImageSampler>
+
+  <Camera type="PerspectiveCamera">
+    <World2Camera>
+      <Translate x="-0.5" y="-0.5" z="-2.03205"/>      
+    </World2Camera>
+    <Hither value="0.1"/>
+    <Yon value="100"/>
+    <ShutterOpen value="0"/>
+    <ShutterClose value="1"/>
+
+    <ProjectiveCamera>
+      <LensRadius value="0"/>
+      <FocalDistance value="0"/>
+      <ScreenWindow Left="-1.0" Right="1.0" Down="-1.0" Up="1.0"/>
+      <PerspectiveCamera Fov="60.0"/>
+    </ProjectiveCamera>
+          
+    <Film type="ImageFilm">
+      <Resolution x="700" y="700"/>
+      <Gamma value ="2.0"/>
+      <CropWindow Left="0.0" Right="1.0" Down="0.0" Up="1.0"/>
+      <Filename value="../test_xml.tga"/>
+      <PremultiplyAlpha value="false"/>
+      <WriteFrequency value="-1"/>
+      
+      <Filter type="MitchellFilter">
+        <Width x="2.5" y="2.5"/> 
+        <B value="0.3333333"/>
+        <C value="0.3333333"/>
+      </Filter>      
+    </Film>
+  </Camera>
+
+</Scene>
