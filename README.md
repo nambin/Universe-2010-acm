@@ -14,6 +14,6 @@ Most implementations reside in the `_Header` and `_Source` directories. The libr
 * **3D Rendering:** Photon map rendering implementation [3], Ray tracing, Realtime shader with GLSL
 
 **References:**
-* [1] Detail-Preserving Fully-Eulerian Interface Tracking Framework. ACM Transactions on Graphics (Proc. SIGGRAPH Asia 2010), Vol. 29, Issue. 6, 176, 2010.
-* [2] https://youtu.be/ToOJT6B7YMM
-* [3] Realistic Image Synthesis Using Photon Mapping by Henrik Wann Jensen
+* [1] [Detail-Preserving Fully-Eulerian Interface Tracking Framework](https://dl.acm.org/doi/10.1145/1882261.1866198). ACM Transactions on Graphics (Proc. SIGGRAPH Asia 2010), Vol. 29, Issue. 6, 176, 2010.
+* [2] [Demo in Youtube](https://youtu.be/ToOJT6B7YMM)
+* [3] [Realistic Image Synthesis Using Photon Mapping](https://a.co/d/0cTETdMv) by Henrik Wann Jensen
